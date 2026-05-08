@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/reflection/src/main/java/black/reflection/HiddenApiBypass.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1374,
+          "line": 33
+        },
+        "start": {
+          "column": 0,
+          "index": 1374,
+          "line": 33
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/reflection/src/main/java/black/reflection/HiddenApiBypass.java"
+}
