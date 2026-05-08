@@ -43,3 +43,14 @@ public class MyVirtualApp extends Application {
         HiddenApiBypass.bypass();
     }
 }
+```
+---
+<p align="center">
+  🚀 <i>Optimized for high-performance ARM64 architecture.</i>
+</p>
+
+<p align="center">
+Developed with ❤️ by <b>geterrorcod-me</b>
+
+<i>"Control the framework, control the system."</i>
+</p>
