@@ -1,0 +1,27 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'black.reflection'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Tidak butuh dependensi luar agar library tetap ringan (core)
+}
+
+tasks.withType(JavaCompile) {
+    options.release = 8 // Gunakan Java 8 agar kompatibel dengan semua versi Android
+}
+
+jar {
+    archiveFileName = 'reflection.jar'
+    // Memastikan manifest bersih
+    manifest {
+        attributes('Implementation-Title': 'Reflection Helper',
+                   'Implementation-Version': archiveVersion)
+    }
+}
